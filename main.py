@@ -7,6 +7,7 @@ class Add:
 
     def cal(self):
         return self.x+self.y
+
 class Divide:
     def __init__(self, x, y):
         self.x = x
@@ -14,3 +15,11 @@ class Divide:
 
     def cal(self):
         return self.x / self.y
+        
+class minus :
+    def __init__(self, x, y) :
+        self.x = x
+        self.y = y
+
+    def cal(self) :
+        return self.x - self.y

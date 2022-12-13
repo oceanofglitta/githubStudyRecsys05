@@ -1,7 +1,1 @@
-'''
-Printer Class
-'''
-
-class Printer:
-    def print_a():
-        print("A")
+print('a b c d')
